@@ -1,23 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>silver_dev | My Portfolio </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/utils.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/sections.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/skillset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/experience.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css" />
+
 </head>
+
 <body>
     <header>
-        <img class="circle" src="assets/logos/coding.jpg" alt="logo_coding.jpg" width="70">
+        <img class="circle" src="assets/logos/logo_fondo_negro.png" alt="logo_coding.jpg" width="70">
         <h1>Xavier Criollo Sánchez</h1>
         <hr />
         <h2>Software Engineer</h2>
-        <video controls width="400" loop autoplay muted>
-            <source src="assets/video/hero.mp4" type="video/mp4">
+        <video autoplay loop muted>
+            <source src="assets/video/5405026_Coll_wavebreak_Icon_1280x720.mp4">
     </header>
     <nav id="navbar" class="open">
         <div>
             <a href="/">
-                <img class="circle" src="assets/logos/yo_sport.jpg" alt="logo_small.jpg" width="20">
+                <img class="circle" src="assets/logos/yo_entrepreneur.jpg" alt="yo_entrepreneur" />
                 <span>Xavier Criollo Sánchez <small>Software Engineer</small></span>
             </a>
             <button id="hamburger">☰</button>
@@ -35,15 +52,15 @@
             <hr />
             <div>
                 <button>
-                    <img src="assets/portfolio/designer_web.jpg" width="250" />
+                    <img src="assets/portfolio/designer_web.jpg"/>
                     <h4>Web Designer</h4>
                 </button>
                 <button>
-                    <img src="assets/portfolio/developer_apps.jpg" width="250" />
+                    <img src="assets/portfolio/developer_apps.jpg"/>
                     <h4>App Developer</h4>
                 </button>
                 <button>
-                    <img src="assets/portfolio/programmer_2.jpg" width="250" />
+                    <img src="assets/portfolio/programmer_2.jpg"/>
                     <h4>Management System</h4>
                 </button>
             </div>
@@ -68,6 +85,27 @@
                     <img src="assets/link_social/github_270798.png" /> <!--Aqui hay que cambiar el logo de GIT-->
                     <span class="tooltip">GIT</span>
                 </div>
+                <div>
+                    <img src="assets/img/skillset/js.svg" />
+                    <span class="tooltip">JavaScript</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/npm.svg" />
+                    <span class="tooltip">npm</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/bash.svg" />
+                    <span class="tooltip">bash</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/node.svg" />
+                    <span class="tooltip">Node.js</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/react.svg" />
+                    <span class="tooltip">React</span>
+                </div>
+
             </div>
         </section>
         <section id="experience">
@@ -76,15 +114,15 @@
             <div>
                 <!--Faltan crear las paginas web-->
                 <a href="https://" target="_blank">
-                    <img id="Juliana Cueva" src="assets/experience/dashboard.jpg" />
+                    <img id="juliana_cueva" src="assets/experience/spa juliana cueva.jpg" />
                     <h4>Web | Spa Juliana Cueva</h4>
                 </a>
                 <a href="https://" target="_blank">
-                    <img id="Juan Cueva" src="assets/experience/dashboard.jpg" />
+                    <img id="juan_cueva" src="assets/experience/maquinaria liviana JC.jpg" />
                     <h4>Web | Cueva Construcciones</h4>
                 </a>
                 <a href="https://" target="_blank">
-                    <img id="MLP"  src="assets/experience/gamer.jpg" />
+                    <img id="mlp" src="assets/experience/gamer.jpg" />
                     <h4>PRO GAMER | MLP</h4>
                 </a>
             </div>
@@ -92,7 +130,7 @@
         <section id="contact" class="even">
             <h3>Contact</h3>
             <hr />
-            <form action="https://formspree.io/f/mbjqgnvj" method="POST">
+            <form action="#" method="POST">
                 <label>
                     Your email:
                     <input type="email" name="_replyto">
@@ -111,17 +149,18 @@
             <a href="https://github.com/XavierCriollo" target="_blank">
                 <img id="github" src="assets/link_social/github_270798.png">
             </a>
-            <!--Falta crear estas redes sociales relacionadas con mi perfil personal-->
+            <!--Falta crear estas redes sociales relacionadas con mi perfil personal
             <a href="https://" target="_blank">
                 <img id="youtube" src="assets/link_social/youtube_3938037.png">
             </a>
             <a href="https://" target="_blank">
                 <img id="instagram" src="assets/link_social/instagram_2111463.png">
-            </a>
+            </a>-->
         </nav>
     </main>
     <footer>
         <small>Developed and designed by Xavier Criollo Sánchez. &copy;2025. All rights reserved.</small>
     </footer>
 </body>
+
 </html>
