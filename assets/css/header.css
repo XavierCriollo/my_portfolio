@@ -1,0 +1,22 @@
+header {
+    padding: 5rem 0 3rem;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(var(--black), var(--black2));
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.2; /* Aplica opacidad solo al video */
+}
+
+#yo {
+    position: relative; /* Mantiene su posición sin afectar el texto */
+    z-index: 1; /* Se asegura de que esté sobre el video pero no sobre el texto */
+    opacity: 1; /* Asegura que la imagen no sea transparente */
+}
