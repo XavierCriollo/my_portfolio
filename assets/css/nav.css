@@ -93,8 +93,18 @@
     background-color: var(--primary-dark);
 }
 
-a {
+footer a {
     color: var(--white);        /* Color blanco */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+footer a:hover {
+    color: var(--primary); /* Color azul al pasar el cursor */
+}
+
+a {
+    color: var(--gray3);        /* Color gris */
     text-decoration: none; /* Sin subrayado */
     transition: color 0.3s ease; /* Transición suave */
 }

@@ -1,4 +1,4 @@
-#portfolio button {
+#portfolio a {
     display: block;
     position: relative;
     margin: 1rem auto;
@@ -16,12 +16,12 @@
     transition: transform ease .3s;
 }
 
-#portfolio button:hover img {
+#portfolio a:hover img {
     transform: scale(1.25);
 }
 
 
-#portfolio button:before {
+#portfolio a:before {
     content: '';
     background-color: var(--primary);
     width: 100%;
@@ -34,7 +34,7 @@
     opacity: 0;
 }
 
-#portfolio button:hover:before {
+#portfolio a:hover:before {
     opacity: 0.75;
 }
 
@@ -51,13 +51,13 @@
     transition: bottom ease .3s, opacity ease .3s;
 }
 
-#portfolio button:hover h4 {
+#portfolio a:hover h4 {
     bottom: 30%;
     opacity: 1;
 }
 
-#portfolio button:after {
-    content: url('../img/icons/zoom.svg');
+#portfolio a:after {
+    content: url("icons/zoom.svg");
     width: 50%;
     position: absolute;
     z-index: 2;
@@ -68,7 +68,7 @@
     transition: top ease .3s, opacity ease .3s;
 }
 
-#portfolio button:hover:after {
+#portfolio a:hover:after {
     top: 40%;
     opacity: .75;
 }
